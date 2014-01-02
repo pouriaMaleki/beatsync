@@ -1,0 +1,17 @@
+{
+  "name": "beatsync",
+  "version": "0.0.1",
+  "description": "captures tapping on sync",
+  "main": "scripts/js/lib/BeatSync.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "scripts": {
+    "test": "node ./node_modules/coffee-script/bin/cake test",
+    "prepublish": "node ./node_modules/coffee-script/bin/cake build"
+  },
+  "author": "Pouria Maleki",
+  "license": "MIT"
+}
